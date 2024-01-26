@@ -1,0 +1,50 @@
+# change the followings to match your Github username and repo name
+baseurl: "" # the name of your github repo
+#baseurl: "/blog" # the name of your github repo
+
+url: "https://jingnanzhou.github.io" # the url of your github pages
+
+# site information used in page title, meta data etc.
+title: Demystify LLM for SLM Potential
+description: Imagine a world where information isn't controlled by tech giants, but empowers critical thinking and connects everyone to global knowledge. This is the promise of demystifying large language model (LLM) to create small large model (SLM) that anyone can access. We're breaking down centralized control, promoting independent thought, and unlocking the potential of information for all. Join us in building this brighter future.
+
+
+# color theme for links
+theme-color: indigo # indigo|yellow|pink|green|stone|
+
+# homepage information
+author: Jingnan Zhou
+author-bio: Executive / entrepreneur / coder  # change to false to hide
+attention-img: attention.png  # file must be in the /assets/img/ folder
+
+# navigation menu
+show-nav-menu: true
+
+nav-menu:
+- text: GenAI
+  permalink: genai
+- text: Blog
+  permalink: blog
+
+# use false to turn off any social media links
+twitter: https://twitter.com/jingnanzhou
+facebook: false
+instagram: false
+github: https://github.com/iservicebus
+linkedin: https://www.linkedin.com/in/jingnanzhou/
+medium: false
+rss: /feed.xml
+google-scholar: false
+email: false
+
+# footer information
+footer-msg: "iServicebus"
+footer-msg-link: https://iservicebus.github.io
+
+# google analytics
+google-analytics: input
+
+# jekyll plugins - no need to change
+plugins:
+    - jekyll-seo-tag
+    - jekyll-feed
