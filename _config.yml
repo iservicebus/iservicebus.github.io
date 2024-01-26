@@ -2,7 +2,7 @@
 baseurl: "" # the name of your github repo
 #baseurl: "/blog" # the name of your github repo
 
-url: "https://jingnanzhou.github.io" # the url of your github pages
+url: "https://iservicebus.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: Demystify LLM for SLM Potential
