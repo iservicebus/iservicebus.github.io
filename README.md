@@ -1,3 +1,3 @@
 # About
 
-Harry Wang's personal website built with [Tailpages](https://github.com/harrywang/tailpages)
+website for Demystify LLM for SLM Potential
