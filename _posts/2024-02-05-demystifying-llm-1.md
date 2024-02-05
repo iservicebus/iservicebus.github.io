@@ -1,20 +1,13 @@
 ---
 layout: post
-title: Demystifying Large Language Models (LLM) in Plain English Part I Overview
+title: Demystifying Large Language Models (LLM) in Plain English - Part I Overview
 tags: LLM, toyLLM
 date: 2024-02-05
 featured_image: "{{site.baseurl}}/assets/img/LLM_overview.jpg"
 permalink: demystifying-llm-1
 ---
 
-
 <img class="mx-auto" src="{{site.baseurl}}/assets/img/LLM_overview.jpg">
-
-
-
-
-
-
 
 The November 2022 launch of ChatGPT marked a watershed moment in the trajectory of AI advancement, ushering in exponential growth in its impact. This shift has prompted concerns about the privacy and safety of generative AI technology. To foster a nuanced understanding and empower individuals to form informed opinions, we embark on a series of posts aimed at demystifying Generative AI (GenAI), with a specific focus on the Large Language Model (LLM). Our approach involves presenting information from two perspectives: 
 - **elucidating concepts in plain English** and
@@ -41,7 +34,7 @@ The foundation model draws its learning from publicly available websites, social
 
 The model's inferences are heavily influenced by the quality and sources of its training data. High-quality, diverse data sources contribute to a robust and unbiased foundation, while skewed or limited data can lead to biases and inaccuracies in the LLM's outputs.
 
-## Fine-Tuning Model: Delving Deeper into Domain Expertise
+## Fine-Tuning Model - Delving Deeper into Domain Expertise
 
 Building upon the broad foundation of common knowledge established by the Foundation Model, the Fine-Tuning Model acts as a specialized overlay. This additional layer empowers the LLM to hone its capabilities for specific subjects or domains. Imagine it as a customized textbook meticulously tailored to a particular field of study. Just as a student immerses themselves in focused study to gain deep subject matter expertise, the Fine-Tuning Model enables the LLM to specialize in diverse domains, ranging from medicine to technology.
 
