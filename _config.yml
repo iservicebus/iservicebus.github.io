@@ -17,6 +17,7 @@ author: Jingnan Zhou
 author-bio: Executive / entrepreneur / coder  # change to false to hide
 attention-img: attention.png  # file must be in the /assets/img/ folder
 
+
 # navigation menu
 show-nav-menu: true
 
