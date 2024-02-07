@@ -2,6 +2,7 @@
 layout: post
 title: Demystifying Large Language Models (LLM) in Plain English
 tags: LLM, toyLLM
+author: Jingnan Zhou
 date: 2024-02-05
 featured_image: "{{site.baseurl}}/assets/img/LLM_overview.jpg"
 permalink: demystifying-llm-1
