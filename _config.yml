@@ -16,7 +16,7 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 author: Jingnan Zhou
 author-bio: Executive / entrepreneur / coder  # change to false to hide
 attention-img: attention.png  # file must be in the /assets/img/ folder
-
+company: Cohesionet
 
 # navigation menu
 show-nav-menu: true
@@ -39,8 +39,8 @@ google-scholar: false
 email: false
 
 # footer information
-footer-msg: "iServicebus"
-footer-msg-link: https://iservicebus.github.io
+footer-msg: "Cohesionet"
+footer-msg-link: https://www.cohesionet.com
 
 # google analytics
 google-analytics: input
