@@ -6,29 +6,38 @@ layout: default
 {% endif %}
 
 
-<section class="header relative pt-16 items-center flex h-screen" style="max-height:860px">
+<section class="relative pt-16  grid grid-rows-2 h-screen" style="max-height:860px">
+  <div >
   <div class="container mx-auto items-center flex flex-wrap">
     <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
-      <div class="pt-32 sm:pt-0"><h2 class="font-semibold text-xl text-center text-Gray-800">{{site.title}}</h2>
-        <div class="pt-32 sm:pt-0"><h3 class="font-semibold text-lg text-center text-blue-700"><i>{{site.sub-title}}</i></h3>
+      <div class="pt-4 sm:pt-0"><h2 class="font-semibold text-xl text-center text-Gray-800">{{site.title}}</h2>
+        <div class="pt-4 sm:pt-0"><h3 class="font-semibold text-lg text-center text-blue-700"><i>{{site.sub-title}}</i></h3>
 
-      <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-        {{site.description}}
-      </p>
-      <div class="mt-12">
-        <a class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-pink-500 active:bg-pink-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150" href="https://github.com/iservicebus/lmaas">Get started</a>
-        <a href="https://github.com/iservicebus/lmaas" class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg" target="_blank">Github Star</a>
+          <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+            {{site.description}}
+          </p>
+          <div class="mt-12">
+            <a class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-pink-500 active:bg-pink-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150" href="https://github.com/iservicebus/lmaas">Get started</a>
+            <a href="https://github.com/iservicebus/lmaas" class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg" target="_blank">Github Star</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
-    <img class="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12" src="{{site.baseurl}}/assets/img/{{site.lmaas-img}}" alt="..." style="max-height:700px">
+    <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
+      <img class="b-auto pt-16 " src="{{site.baseurl}}/assets/img/{{site.lmaas-img}}" alt="..." style="max-height:700px">
     </div>
+  </div>
+
 </div>
+<div >
+
+{% include footer.html %}
+</div>
+
+
 </section>
   
 
 
 
 
-{% include footer.html %}
