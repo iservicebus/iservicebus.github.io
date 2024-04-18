@@ -5,8 +5,8 @@ baseurl: "" # the name of your github repo
 url: "https://iservicebus.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: Language Model as a Service (LMaaS) 
-sub-title: opens the door for every developer to develop GenAI apps
+title:  Navigate GenAI Adoption Together 
+sub-title: You Report the Challenge, We Research the Solution for Free
 description: For many developers, Generative AI (GenAI) has been out of reach due to demanding hardware, complex frameworks, and specialized expertise. Language Model as a Service(LMaaS), an open-source platform, changes the game. Leverage your existing programming skills (Java, Javascript, Python, C#) with LMaaS's intuitive OpenAPIs to unlock the power of GenAI directly on your laptop. Easily build GenAI applications and explore best practices with provided libraries and reference implementation. Start your GenAI journey today with LMaaS!
 
 # color theme for links
@@ -15,15 +15,15 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 # homepage information
 author: Jingnan Zhou
 author-bio: Executive / entrepreneur / coder  # change to false to hide
-lmaas-img: LMaaS.jpg  # file must be in the /assets/img/ folder
+site-img: genai_kb.png  # file must be in the /assets/img/ folder
 company: Cohesionet
 
 # navigation menu
 show-nav-menu: true
 
 nav-menu:
-- text: GenAI
-  permalink: genai
+- text: GenAI Guide
+  permalink: genai_docs
 - text: Blog
   permalink: blog
 

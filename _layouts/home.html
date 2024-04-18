@@ -8,24 +8,61 @@ layout: default
 
 <section class="relative pt-16  grid grid-rows-2 h-screen" style="max-height:860px">
   <div >
-  <div class="container mx-auto items-center flex flex-wrap">
-    <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
-      <div class="pt-4 sm:pt-0"><h2 class="font-semibold text-xl text-center text-Gray-800">{{site.title}}</h2>
-        <div class="pt-4 sm:pt-0"><h3 class="font-semibold text-lg text-center text-blue-700"><i>{{site.sub-title}}</i></h3>
+    <div class="mt-4 "><p class="font-semibold text-4xl text-center text-Gray-800">{{site.title}}</p>
 
-          <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-            {{site.description}}
-          </p>
-          <div class="mt-12">
-            <a class="get-started ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg" href="https://github.com/iservicebus/lmaas">Get started</a>
+      <div class="mt-4  "><p class="font-semibold text-xl text-center text-indigo-800"><i>{{site.sub-title}}</i></p>
+
+      <div class="container animatable mt-10 mx-auto items-center flex flex-wrap animation-fadein">
+        <div class="w-full  lg:w-6/12 xl:w-6/12 px-4 ">
+          <div class="pt-4 sm:pt-0"><h3 class="font-semibold text-xl text-center text-Gray-800">
+            Solve 80% of GenAI Adoption Problems
+          </h3>
+              <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+                Enterprise adoption of Generative AI (GenAI) can be a hurdle, but you don't have to go it alone.  80% of the challenges you face are common across enterprises.  Our solution focuses on these common issues, allowing you to tackle them efficiently.
+                The vibrant GenAI tech community is eager to help with these shared challenges.  Report your challenge through this link, and we'll connect you with the community to find solutions for 80% of your problems, free of charge.
+              </p>
+              <div class="mt-12 text-center ">
+                <a class="get-started ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg" href="https://github.com/iservicebus/lmaas">Share Your Challenge</a>
+              </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 xl:w-6/12 px-4">
+          <img  class="b-auto " src="{{site.baseurl}}/assets/img/genai_kb.png" alt="..." style="max-height:700px">
+        </div>
+      </div>
+
+      <div class="container animatable pt-4 mx-auto items-center flex flex-wrap animation-fadein">
+        <div class="w-full lg:w-6/12 xl:w-6/12 px-4 ">
+          <div class="pt-4 "><h2 class="font-semibold text-xl text-center text-Gray-800">
+            Enterprise GenAI Adoption Guide
+          </h2>
+              <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+                Business leaders, including CEOs from JP Morgan and Goldman Sachs, recognize GenAI's potential to revolutionize business models and transform our lives. However, a staggering 98% of IT executives have stalled their GenAI initiatives due to the inherent probabilistic nature of machine learning.
+                Our comprehensive GenAI adoption guide is specifically designed for enterprises.  We recommend starting with business process-driven use cases that offer moderate risk and can be implemented within your existing governance structure.  The guide also provides solutions to many common adoption challenges.
+              </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 xl:w-6/12 px-4">
+          <img  class="b-auto " src="{{site.baseurl}}/assets/img/GenAI_adoption.png" alt="..." style="max-height:700px">
+        </div>
+      </div>
+
+      <div class="container animatable pt-4 mx-auto items-center flex flex-wrap animation-fadein ">
+        <div class="w-full  px-4 ">
+          <div class="pt-4 "><h2 class="font-semibold text-xl text-center text-Gray-800">
+            Beyond Common GenAI Knowledge
+          </h2>
+              <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+                Our primary goal is to bridge the gap between the AI tech community and established companies.  By working together, we can overcome common challenges and build a shared GenAI knowledge base.  This eliminates the need for you to invest time and resources researching solutions to 80% of your problems.
+                We understand that the remaining 20% of your challenges are unique to your business.  If you face these specific issues, please use this link to contact us.  Our team will be happy to connect you with the most knowledgeable expert to assist you.
+                </p>
+              <div class="mt-12 ">
+                <a class="get-started ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg" href="https://github.com/iservicebus/lmaas">Get started</a>
+              </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
-      <img class="b-auto pt-16 " src="{{site.baseurl}}/assets/img/{{site.lmaas-img}}" alt="..." style="max-height:700px">
-    </div>
-  </div>
+
 
 </div>
 <div >
@@ -33,6 +70,27 @@ layout: default
 {% include footer.html %}
 </div>
 
+<script>
+
+const targetDiv = document.querySelector('.animatable');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      targetDiv.classList.add('animation-fadein'); // Add animation class
+    } else {
+      targetDiv.classList.remove('animation-fadein'); // Remove animation class
+    }
+  });
+});
+
+observer.observe(targetDiv);
+
+
+
+  setTimeout(function() {
+    document.getElementById("diagram").classList.remove("invisible");
+  }, 2000);
+</script>
 
 </section>
   
