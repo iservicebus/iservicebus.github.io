@@ -22,8 +22,11 @@ company: Cohesionet
 show-nav-menu: true
 
 nav-menu:
+- text: GenAI QA
+  permalink: genai-adoption-qa
+
 - text: GenAI Guide
-  permalink: genai_docs
+  permalink: genai-adoption-guide
 - text: Blog
   permalink: blog
 
