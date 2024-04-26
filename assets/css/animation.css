@@ -1,0 +1,19 @@
+@keyframes fadeIn {
+    0% {  /* Style when animation is 0% done (At start)*/
+    	opacity: 0
+    }
+    100% { /* Style when animation is 100% done (At Finish)*/
+    	opacity: 1
+    }
+}
+
+
+
+.animation-fadein {
+   animation-duration: 2s;
+   animation-name: fadeIn;
+}
+
+.invisible{
+    visibility: hidden;
+}

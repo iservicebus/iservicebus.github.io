@@ -1,6 +1,6 @@
 ---
 layout: home
-title: LMaaS
+title: CO
 permalink: /
 ---
 
